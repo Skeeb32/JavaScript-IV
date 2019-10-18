@@ -70,7 +70,7 @@ class CharacterStats extends GameObject {
   greet() {
     return `${this.name} offers a greeting in ${this.language}`;
   }
-)
+  }
   
   /*
     * Inheritance chain: GameObject -> CharacterStats -> Humanoid

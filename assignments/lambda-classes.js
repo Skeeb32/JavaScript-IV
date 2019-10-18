@@ -55,9 +55,9 @@ class ProjectManagers extends Instructor {
     debugsCode(pm, student, subject) {
         return `${pm.name} debugs ${student.name}'s code on ${subject}`;
     }
-}
+};
 
-Let Mo = new Instructor({
+Let mo = new Instructor({
     name: "Mo Davoodi",
     age: 27,
     location: 'Canada',
@@ -65,9 +65,9 @@ Let Mo = new Instructor({
     favLanguage: 'JavaScript',
     catchPhrase: 'You almost got it, dude!!',
     )
-}
+};
 
-Let Saad = new Instructor({
+Let saad = new Instructor({
     name: "Saad Shah",
     age: 31,
     location: 'California',
@@ -75,8 +75,8 @@ Let Saad = new Instructor({
     favLanguage: 'React',
     catchPhrase: 'DANG IT!!',
     )
-}
-Let Zahrah = new Student({
+};
+Let zahrah = new Student({
     name: "Zahrah Ali",
     age: 29,
     location: 'California',
@@ -87,8 +87,8 @@ Let Zahrah = new Student({
     className: 'Web 25',
     favSubjects: 'HTML5'
     )
-}
-Let Bilal = new Student({
+};
+Let bilal = new Student({
     name: "Bilal Madha",
     age: 30,
     location: 'California',
@@ -99,8 +99,8 @@ Let Bilal = new Student({
     className: 'Web 25',
     favSubjects: 'HTML5'
     )
-}
-Let Aziz = new Student({
+};
+Let aziz = new Student({
     name: "Aziz Tazi",
     age: 28,
     location: 'Spain',
@@ -113,7 +113,7 @@ Let Aziz = new Student({
     )
 };
 
-Let TK = new ProjectManagers({
+Let tk = new ProjectManagers({
     name: "TK Smith",
     age: 43,
     location: 'Japan',
@@ -126,8 +126,8 @@ Let TK = new ProjectManagers({
     gradClassName: 'Web 23',
     favInstructor: 'Sam Hunt',
     )
-}
-Let Ryan = new ProjectManagers({
+};
+Let ryan = new ProjectManagers({
     name: "Ryan Billings",
     age: 32,
     location: 'New York',
@@ -142,17 +142,17 @@ Let Ryan = new ProjectManagers({
     )
 };
 
-console.log(Mo);
-console.log(Saad);
-console.log(Zahrah);
-console.log(Bilal);
-console.log(Aziz);
-console.log(TK);
-console.log(Ryan);
-console.log(Mo.demo());
-console.log(Saad.grade(Zahrah, 'JavaScript-I'));
-console.log(Zahrah.listsSubjects());
-console.log(Bilal.PRAssignment(Zahrah, 'LESS'));
-console.log(Aziz.sprintChallenge, 'CSS');
-console.log(TK.standUp, 'Web 25');
-console.log(Ryan.debugsCode(Mo, 'Python'));
+console.log(mo);
+console.log(saad);
+console.log(zahrah);
+console.log(bilal);
+console.log(aziz);
+console.log(tk);
+console.log(ryan);
+console.log(mo.demo());
+console.log(saad.grade(zahrah, 'JavaScript-I'));
+console.log(zahrah.listsSubjects());
+console.log(bilal.PRAssignment(zahrah, 'LESS'));
+console.log(aziz.sprintChallenge, 'CSS');
+console.log(tk.standUp, 'Web 25');
+console.log(ryan.debugsCode(mo, 'Python'));
