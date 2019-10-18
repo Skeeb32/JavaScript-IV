@@ -50,7 +50,7 @@ class CharacterStats extends GameObject {
   takeDamage() {
     return `${this.name} took damage.`;
   }
-
+}
   /*
     === Humanoid (Having an appearance or character resembling that of a human.) ===
     * team
@@ -70,7 +70,8 @@ class CharacterStats extends GameObject {
   greet() {
     return `${this.name} offers a greeting in ${this.language}`;
   }
-
+)
+  
   /*
     * Inheritance chain: GameObject -> CharacterStats -> Humanoid
     * Instances of Humanoid should have all of the same properties as CharacterStats and GameObject.
